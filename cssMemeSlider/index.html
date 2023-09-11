@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Meme Slider</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="wrapper">
-        
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CSS Meme Slider</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<input type="radio" checked name="sel" id="s1" />
+            <input type="radio" name="sel" id="s2" />
+			<input type="radio" name="sel" id="s3" />
+			<input type="radio" name="sel" id="s4" />
+			<input type="radio" name="sel" id="s5" />
+            <div class="wrapper-slider">
+                <div class="slider">
+                    <ul class="items">
+                        <li class="item s1" data-type="primary">
+                            <img src="./slide-1.jpg" alt="s1" />
+                        </li>
+                        <li class="item">
+                            <img src="./slide-2.jpg" alt="s2" />
+                        </li>
+                        <li class="item">
+                            <img src="./slide-3.jpg" alt="s3" />
+                        </li>
+                        <li class="item">
+                            <img src="./slide-4.jpg" alt="s4" />
+                        </li>
+                        <li class="item">
+                            <img src="./slide-5.jpg" alt="s5" />
+                        </li>
+                    </ul>
+                </div>
+				<div class="nav">
+					<label for="s1" class="nav-item">
+						<div class="nav-round"></div>
+					</label>
+					<label for="s2" class="nav-item">
+						<div class="nav-round"></div>
+					</label>
+					<label for="s3" class="nav-item">
+						<div class="nav-round"></div>
+					</label>
+					<label for="s4" class="nav-item">
+						<div class="nav-round"></div>
+					</label>
+					<label for="s5" class="nav-item">
+						<div class="nav-round"></div>
+					</label>
+				</div>
+				<div class="subtitle">
+					<div class="subtitle-item">The first beautiful picture</div>
+					<div class="subtitle-item">The second beautiful picture</div>
+					<div class="subtitle-item">The third beautiful picture</div>
+					<div class="subtitle-item">The fourth beautiful picture</div>
+					<div class="subtitle-item">The fifth beautiful picture</div>
+				</div>
+            </div>
+		</div>
+	</body>
 </html>
